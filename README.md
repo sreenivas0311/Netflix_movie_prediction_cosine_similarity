@@ -1,3 +1,25 @@
+📦 Model Artifacts & File Size Note
+
+        Due to GitHub’s 100 MB file size limit, the trained model artifacts could not be uploaded to this repository.
+        
+        The following files were generated during development and are required to run the Streamlit app:
+        
+        df_cleaned.pkl
+        
+        tfidf.pkl
+        
+        cosine_sim.pkl
+        
+        How to Obtain These Files
+        
+        Run the Jupyter Notebook provided in the notebook/ folder
+        
+        The notebook includes code to generate and save all required .pkl files locally
+        
+        Place the generated files inside the app/ directory before running the app
+        
+        This approach avoids large file uploads while keeping the repository lightweight and reproducible.
+
 🎬 Netflix Content Recommendation System
 📌 Project Overview
     
